@@ -34,11 +34,21 @@
 
 
     footer{
-        text-align: center;
-        font-size: 30px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 28px;
+        font-family: cursive;
         font-weight: 900;
         color: antiquewhite;
+        text-shadow: 0 -4px brown,
+        0 -5px black,
+        0 -6px black,
+        0 4px black,
+        0 0 35px greenyellow;
+        text-align: center;
+        border-radius: 10px 10px 50px 50px;
+        background: none;
     }
 </style>
 <body>
@@ -46,7 +56,7 @@
         <img src="ico1.png" alt="" width="220px">
     </menu>
     <main>
-        <img id="img1" class="img-main" src="1.png" alt="" width="320px">
+        <video id="img1" src="vid.mp4" autoplay muted loop></video>
         <input type="button" onclick="vid1()" value="عرض">
         <input type="button" onclick="vid2()" value="أخفاء">
     </main>
